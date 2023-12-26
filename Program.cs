@@ -5,9 +5,9 @@ namespace CsharpAdvanced_2
 
     internal class Program
     {
-        public static int[] array1 = new int[] {14, 12, 51, 95};
+        public static int[] array1 = new int[] {14, 12, 51, 95}; //instence du tableau
         public static int[] array1bis = new int[4];
-        public static int[,] array2 = new int[2,3];
+        public static int[,] array2 = new int[2,3]; // tableau multi-dimensionnel - ici 2 dimensions [,]
         public static int[,] array3 = { { 11, 22, 33 }, { 54, 1001, 9 } };
 
         static void Main(string[] args)
@@ -15,7 +15,7 @@ namespace CsharpAdvanced_2
             //array1[0] = 9;
             //array1[1] = 19;
             //array1[2] = 2;
-            //array1[3] = 14;
+            //array1[3] = 14; (avant modification de array1[])
 
             Console.WriteLine("Valeurs de Array1 :");
 
